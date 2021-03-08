@@ -7,6 +7,26 @@ package ca.sheridancollege.week1.softwarefundamentals;
  */
 public class Student {
 
+    private int age;
+
+    /**
+     * Get the value of age
+     *
+     * @return the value of age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * Set the value of age
+     *
+     * @param age new value of age
+     */
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     private String name;
 
     private String numHours;
